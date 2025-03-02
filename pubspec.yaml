@@ -1,0 +1,76 @@
+name: fit_book
+description: Track your calories - Completely offline!
+publish_to: none
+version: 1.0.110+117
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.21
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  provider: ^6.1.2
+  dynamic_color: ^1.7.0
+  file_picker: ^8.0.3
+  fl_chart: ^0.70.2
+  intl: ^0.20.2
+  csv: ^6.0.0
+  sqlite3: ^2.4.3
+  share_plus: ^10.1.4
+  package_info_plus: ^8.0.0
+  url_launcher: ^6.2.6
+  badges: ^3.1.2
+  openfoodfacts: ^3.11.0
+  archive: ^4.0.2
+  cached_network_image: ^3.4.1
+  barcode_scan2: ^4.3.2
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^18.0.1
+  workmanager: ^0.5.2
+  drift_dev: ^2.24.0
+  test: ^1.25.8
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.8
+  flutter_launcher_icons: ^0.14.3
+  msix: ^3.16.7
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+flutter_launcher_icons:
+  android: false
+  ios: true
+  image_path: assets/ic_launcher.png
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: assets/ic_launcher.png
+    background_color: '#hexcode'
+    theme_color: '#hexcode'
+  windows:
+    generate: true
+    image_path: assets/ic_launcher.png
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: assets/ic_launcher.png
+msix_config:
+  msstore_appId: 9PJJVF8507G0
+  display_name: FitBook - Calorie tracker
+  publisher_display_name: Frisbee Software
+  identity_name: FrisbeeSoftware.FitBook-Calorietracker
+  msix_version: 1.0.44.0
+  logo_path: assets/ic_launcher.png
+  trim_logo: false
+  publisher: CN=BB0811CB-EED5-441C-BE1B-D31F391F76DE
+  store: true
+  capabilities: internetClient
