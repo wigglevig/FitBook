@@ -24,8 +24,8 @@ FitBook is a Flutter-based, privacy-focused calorie tracking application that wo
 - A suitable IDE such as [Visual Studio Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
 
 ### Installation
-
-1. **Steps:**
+   APK can be Downloaded from here: https://drive.google.com/drive/folders/1Jw4WRWtiUmTCPwO9OG_BvbcobjvUI48D?usp=sharing
+ **Steps:**
 
    ```bash
    git clone https://github.com/yourusername/FitBook.git
